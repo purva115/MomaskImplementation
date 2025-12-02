@@ -30,7 +30,7 @@ def generate_motion(prompt: str):
         "--text_prompt", prompt,
     ]
 
-    # Run the generation
+    # Running the generation
     try:
         subprocess.run(cmd, check=True)
     except subprocess.CalledProcessError as e:

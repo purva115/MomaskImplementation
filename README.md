@@ -77,17 +77,4 @@ Deployment tips:
 	- Create a minimal `app`/`Space` launcher that streams smaller test models so Spaces can demonstrate functionality without large uploads.
 
 
----
-title: Momask Demo Project
-emoji: ⚡
-colorFrom: purple
-colorTo: gray
-sdk: gradio
-sdk_version: 6.0.1
-app_file: app.py
-pinned: false
-license: mit
-short_description: Text-to-Motion Generation using MoMask (HumanML3D)
----
-
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
